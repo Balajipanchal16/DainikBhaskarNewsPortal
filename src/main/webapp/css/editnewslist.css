@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+.navbar {
+    display: flex !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+     padding: 0 !important;
+     background-color: white !important;
+     height: 70px !important;
+     border-bottom: 1px solid #FAEBD7 !important
+}
+
+.navbar-brand {
+    flex-shrink: 0 !important; 
+   /* Optional: add space after the logo */
+   padding: 0 !important;
+}
+#navbarSupportedContent ul li a:hover{
+		color:orange;
+}
+#logo {
+    width: 200px !important;
+    height: 60px !important; 
+        object-fit: cover !important;
+}
+.rowdeg{
+	height: 90vh;
+	margin-top: 5rem !important;
+}
+.fromdeg{
+	padding: 20px;
+	box-shadow: 2px 2px 2px gray;
+	border-radius: 10px;
+	background-color: white;
+	
+}
+

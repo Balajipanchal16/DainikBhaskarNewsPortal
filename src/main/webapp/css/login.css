@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+/* CSS for controlling logo width and preventing navbar expansion */
+.navbar {
+    display: flex !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+     padding: 0 !important;
+     background-color: white !important;
+     height: 70px !important;
+     border-bottom: 1px solid #FAEBD7 !important
+}
+
+.navbar-brand {
+    flex-shrink: 0 !important; 
+   /* Optional: add space after the logo */
+   padding: 0 !important;
+}
+#navbarSupportedContent ul li a:hover{
+		color:orange;
+}
+#logo {
+    width: 200px !important;
+    height: 150px !important; 
+}
+
+.form1{
+	border-top:7px solid navy;
+	padding: 30px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 4px 4px 7px gray;
+}
+.btn1{
+	width: 100%;
+}
+
+.mesg{
+	text-align: center;
+	/* margin-top: 10px; */
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.mesg a{
+	
+	text-decoration: none;
+}
+.mesg a:hover{
+	text-decoration: underline;
+}
+
+.reg{
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 3px gray;
+}
+.in{
+	border: none;
+	background-color: #fafafa;
+	padding: 10px;
+}

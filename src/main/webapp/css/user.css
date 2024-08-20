@@ -1,0 +1,190 @@
+@charset "ISO-8859-1";
+/* CSS for controlling logo width and preventing navbar expansion */
+.navbar {
+	display: flex !important;
+	align-items: center !important;
+	box-sizing: border-box !important;
+	padding: 0 !important;
+	background-color: white !important;
+	height: 70px !important;
+	border-bottom: 1px solid #FAEBD7 !important;
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+.navbar-brand {
+	flex-shrink: 0 !important;
+	/* Optional: add space after the logo */
+	padding: 0 !important;
+}
+
+#navbarSupportedContent ul li a:hover {
+	/* color: orange; */
+}
+
+#logo {
+	width: 200px !important;
+	height: 60px !important;
+	object-fit: cover !important;
+}
+
+/* Container for the entire layout */
+.mainsdiv {
+	display: flex;
+	margin-top: 70px;
+	/*  width: 100%;
+    max-width: 1200px; */
+	height: calc(100% - 70px);
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar styles */
+.sidebar {
+	width: 20%; /* Adjust the width of the sidebars */
+	padding: 0px;
+	background-color: #333;
+	color: black;
+	align-items: center;
+	margin: 0px;
+}
+.nav-link{
+	    color: black !important;
+	    margin-left: 11px !important;
+}
+.nav-link:hover{
+	    color: orange !important;
+}
+.active{
+	color:orange;
+}
+.left-sidebar {
+	border-right: 1px solid #FAEBD7 !important;
+	/*Optional: Divider between left sidebar and content */
+	background-color: white;
+}
+
+.right-sidebar {
+	border-left: 1px solid #FAEBD7 !important;
+	/* Optional: Divider between right sidebar and content */
+	background-color: white;
+	padding: 20px;
+}
+
+/* Main content area */
+.content {
+	width: 60%; /* Adjust the width of the content area */
+	padding: 20px;
+	/*  background-color: #f9f9f9; */
+}
+
+/* Example link styles */
+.sidebar ul {
+	list-style-type: none;
+	padding-left: 0rem !important;
+}
+.rightsidebardeg{
+	border: 1px solid #FAEBD7;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.sidebar ul li {
+	margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+	color: #2b2b2b;
+	text-decoration: none;
+	align-items: center;
+	border-radius: 4px;
+	display: flex;
+	font-size: 20px;
+	font-weight: var(--font-weight-bold);
+	line-height: 30px;
+	padding: 12px 15px;
+	width: 100%;
+}
+
+.sidebar ul li a:hover {
+	background-color: #fafafa;
+	padding: 12px 15px;
+}
+
+.si::before {
+	margin-left: 10px !important;
+	margin-right: 10px;
+}
+
+.rowdeg {
+	height: 90vh;
+	margin-top: 5rem !important;
+}
+
+.fromdeg {
+	padding: 20px;
+	box-shadow: 2px 2px 2px gray;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.form-select {
+	margin-top: 30px !important;
+}
+
+#exampleFormControlTextarea1 {
+	height: 180px;
+}
+
+.newslist {
+	background-color: white;
+	box-shadow: 2px 2px 3px gray;
+	border-radius: 7px;
+	padding: 40px 40px 40px 40px;
+}
+
+#categorybtndeg {
+	padding: 8px 20px;
+	border-radius: 30px;
+	color: white !important;
+	background-color: #847878 !important;
+}
+
+#categorybtndeg:hover {
+	background-color: black !important;
+	/* border: 1px solid blueviolet; */
+	color: white;
+}
+
+#Newslisttb {
+	margin-top: 70px;
+}
+
+#btn2{
+	padding: 8px 20px;
+	border-radius: 30px;
+	color: white !important;
+	background-color:  #847878 !important;
+}
+#btn2:hover{
+	background-color: black !important;
+/* 	border: 1px solid blueviolet; */
+	color: white !important;
+}
+.newsItem {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 15px;
+}
+
+.newsItem:hover {
+	background-color: #f6f1f1;
+}
+#newsTitle{
+	text-decoration: none;
+	color:#1b0413;
+}
+.newsContent{
+	padding: 20px;
+}
