@@ -1,5 +1,6 @@
 # DainikBhaskarNewsPortal
 Dainik Bhaskar News Portal
+<br>
 Developed a dynamic news portal using Java, Spring Boot, JPA, and JSP.
 Implemented an admin panel to manage news categories and content efficiently.
 Enabled the admin to add, edit, and delete news categories and articles.
